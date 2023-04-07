@@ -191,4 +191,4 @@ if __name__ == "__main__":
     with app.app_context():
         schema_info = get_database_schema(db.engine)
         app.add_url_rule('/generate_sql', 'generate_sql', lambda: generate_sql(schema_info=schema_info), methods=['POST'])
-    app.run(host='77.68.97.97', port=5432, debug=True)
+    app.run(host='77.68.97.97', port=5000, debug=True)
