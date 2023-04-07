@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 
 # Initialize the API client with your API key
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Replace the values below with your actual database connection information
 app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://crowtech:testicles@77.68.97.97:5432/experimental"
